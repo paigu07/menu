@@ -4,7 +4,7 @@
      margin-left: -20px;
      margin-right: -20px;
      display: block;
-     width: 1342px;
+     width: 1355px;
     padding: 0px;
     border: none;
     height: 1000px;
@@ -13,7 +13,7 @@
 header{
     margin-top: 0px;
     background-color:black;
-    width: 1342px;
+    width:  1360px;
     height: 120px;
     display: block;
 }
@@ -26,7 +26,7 @@ header{
     height: 20px;
 }
 #logo{
-    width: 50%;
+    width: 80px;
     height: 80px;
     padding-left: 100px;
     padding-top:10px;
@@ -224,7 +224,7 @@ header{
 
 #nav-bar{
     height:50px ;
-    width: 1342px;
+    width:1360px;
     background-color: #333;
     position: absolute;
     top: 100px;
@@ -264,7 +264,7 @@ footer{
     top:1000px;
     display: block;
     height: 200px;
-    width: 1342px;
+    width:1360px;
     background-color: #333333;
 }
 #company1{
@@ -322,8 +322,24 @@ footer{
     color: #888888;
 
 }
+
+ul,li{
+    list-style:none;
+}
+
+.heartPic{
+    width:749px;
+    height:630px;
+    margin:60px auto 0 auto;
+}
+.heartPic ul{float:left;width:749px;}
+.heartPic ul li{float:left;width:100px;height:100px;padding:2px;cursor:pointer;}
+.heartPic ul li.on{z-index:99;}
+.heartPic ul li.on .in{position:relative;left:-50px;top:-50px;padding:5px 5px 20px 5px;background:#666;}
+.heartPic ul li .pTxt{display:none;width:100px;height:15px;text-align:center;color:#fff;overflow:hidden;}
+.heartPic .showDiv{display:block;}
 #copyright{
-    width: 1342px;
+    width:1360px;
     height: 40px;
     position:absolute;
     bottom:0px;
